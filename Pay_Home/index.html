@@ -16,52 +16,54 @@
   <body>
     <header>
       <section class="header">
-        <div class="container row">
-          <a class="logo" href="#">
-            <img src="./assets/Vector_logo.png" alt="logo" />
-          </a>
+        <div class="container">
+          <nav class="navbar">
+            <button class="nav-toggle" aria-label="open navigation">
+              <span class="hamburger"
+                ><img src="./assets/hamburger.png" alt="hamburger"
+              /></span>
+            </button>
 
-          <button class="nav-toggle" aria-label="open navigation">
-            <span class="hamburger"
-              ><img src="./assets/hamburger.png" alt="hamburger"
-            /></span>
-          </button>
+            <a class="logo" href="#">
+              <img src="./assets/Vector_logo.png" alt="logo" />
+            </a>
 
-          <nav class="nav">
-            <ul class="nav__list__left">
-              <li class="nav__item">
-                <a href="#" class="nav__link">Home</a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">About Us</a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">Services</a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">FAQ</a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link nav__link--button">Contact</a>
-              </li>
-            </ul>
+            <ul class="main-nav">
+              <ul class="nav__list__left">
+                <li class="nav__item">
+                  <a href="#" class="nav-links">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav-links">About Us</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav-links">Services</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav-links">FAQ</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav-links nav__link--button">Contact</a>
+                </li>
+              </ul>
 
-            <ul class="nav__list__right">
-              <li class="nav__item">
-                <a href="#" class="nav__link">Log In</a>
-              </li>
+              <ul class="nav__list__right">
+                <li class="nav__item">
+                  <a href="#" class="nav-links btn">Log In</a>
+                </li>
 
-              <li class="nav__item">
-                <a href="#" class="nav__link">Apply</a>
-              </li>
+                <li class="nav__item">
+                  <a href="#" class="nav-links btn btn_h1">Apply</a>
+                </li>
+              </ul>
             </ul>
           </nav>
         </div>
       </section>
     </header>
 
-    <section class="hero flex">
-      <div class="container hero_flex">
+    <section class="hero flex container">
+      <div class="hero_header">
         <div class="hero__title">
           <h1>
             Get
@@ -82,9 +84,14 @@
       </div>
 
       <div class="hero_pic">
-        <img src="./assets/pngwing 1 (mobile).png" alt="hero_pic" />
+        <img
+          src="./assets/pngwing 1 (mobile).png"
+          class="hero_pic_1"
+          alt="hero_pic"
+        />
+        <img src="./assets/pngwing 1.png" class="hero_pic_2" alt="hero_pic" />
       </div>
     </section>
-    <footer class="footer"></footer>
   </body>
+  <script type="text/javascript" src="main.js"></script>
 </html>
