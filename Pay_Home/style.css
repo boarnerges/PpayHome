@@ -146,7 +146,7 @@ img {
 .hero_flex {
   margin: 0;
   display: flex;
-  width: 75%;
+  width: 87%;
   justify-content: space-between;
 }
 
@@ -188,6 +188,128 @@ h1 {
 
 .hero_pic_1 {
   display: none;
+}
+
+.tags {
+  background-color: #3d418b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.tags_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.tags_num {
+  padding: 10px;
+  font-weight: 500;
+}
+
+.tags_name {
+  font-size: 16px;
+}
+
+.filler {
+  height: 5px;
+  background: #02b15d;
+  width: 90px;
+}
+
+.description {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description_writ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.description_title {
+  color: #222222;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 35px;
+  margin: 0;
+}
+
+.description_text {
+  padding: 10px;
+}
+
+.description img {
+  width: 100%;
+}
+
+.financed,
+.payhomes,
+.construction,
+.advisory {
+  background-color: #3d418b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0 25px 0;
+}
+
+.financed {
+  padding: 100px 0 50px 0;
+}
+
+.financed_img,
+.payhomes_img,
+.construction_img,
+.advisory_img {
+  width: 90%;
+}
+
+._writ {
+  color: #ffffff;
+  padding: 25px 0 0 0;
+}
+
+.findout_more {
+  display: flex;
+  width: 35%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.findout_more img {
+  height: 10px;
+  width: 12.5px;
+  border: 2px;
+}
+
+.findout_more p {
+  color: #02b15d;
+  font-size: 16 px;
+  font-weight: 400;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.steps_writ {
+  color: #222222;
+  padding: 25px 0 0 0;
 }
 
 @media (min-width: 768px) {
